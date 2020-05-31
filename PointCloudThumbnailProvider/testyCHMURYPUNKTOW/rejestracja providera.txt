@@ -1,0 +1,7 @@
+1. skompiluj w Visualu
+2. zarejestruj skompilowane dll
+regsvr32 "C:\Users\Karolina\source\repos\PointCloudThumbnailProvider\x64\Debug\PointCloudThumbnailProvider.dll"
+
+3. aby odrejestrowac nalezy wykonac
+regsvr32 /u "C:\Users\Karolina\source\repos\PointCloudThumbnailProvider\x64\Debug\PointCloudThumbnailProvider.dll"
+oraz usunac plik dll, oraz najlepiej przejrzec kod i jakie wpisy w rejestrze zostaly zrobione i je usunac z rejestru.

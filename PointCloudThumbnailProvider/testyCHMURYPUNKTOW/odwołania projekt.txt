@@ -1,0 +1,6 @@
+https://en.wikipedia.org/wiki/PLY_(file_format)
+http://paulbourke.net/dataformats/ply/
+https://people.sc.fsu.edu/~jburkardt/data/ply/ply.html
+
+libka do .ply
+https://github.com/nmwsharp/happly
