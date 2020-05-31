@@ -115,6 +115,7 @@ HRESULT CPointCloudThumbProvider::_FindThumbnailDataFromStream(ULONG* pActualRes
     LARGE_INTEGER seek_offset_zero = { 0 };
     _pStream->Seek(seek_offset_zero, STREAM_SEEK_SET, nullptr);
     {
+        // TODO: load .ply file
         // https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/
 
         // file header
